@@ -10,14 +10,21 @@ body {
 .pose-img {
     width: 50px;
     border: 1px solid white;
-    margin: 10px;
+    margin-top: 12px;
+    margin-right: 12px;
 }
 
 .notation-img {
     width: 250px;
     border: 1px solid white;
 }
+
 canvas {
     border: 1px solid white;
     margin: 20px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
 }
