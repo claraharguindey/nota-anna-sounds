@@ -8,9 +8,9 @@ body {
 }
 
 .pose-img {
-    width: 50px;
+    width: 55px;
     border: 1px solid white;
-    margin-top: 12px;
+    margin-bottom: 12px;
     margin-right: 12px;
 }
 
@@ -21,7 +21,9 @@ body {
 
 canvas {
     border: 1px solid white;
-    margin: 20px 0;
+    margin: 12px 0;
+    width: 200px;
+    height: 200px;
 }
 
 .gallery {
