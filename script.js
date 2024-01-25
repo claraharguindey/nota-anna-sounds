@@ -1,9 +1,10 @@
-const URL = "https://teachablemachine.withgoogle.com/models/VBBIow2OP/";
+// const URL = "https://teachablemachine.withgoogle.com/models/VBBIow2OP/";
+const URL = "https://teachablemachine.withgoogle.com/models/18oWCFNWY/";
 
 let model, webcam, ctx, labelContainer, maxPredictions;
-const audio1 = new Audio("./media/sounds/sound1old.mp3");
-const audio2 = new Audio("./media/sounds/sound2.mp3");
-const audio3 = new Audio("./media/sounds/sound1.wav");
+const audio1 = new Audio("./media/sounds/chord1.wav");
+const audio2 = new Audio("./media/sounds/chord2.wav");
+const audio3 = new Audio("./media/sounds/chord3.wav");
 
 const pose1Image = document.getElementById("pose1");
 const pose2Image = document.getElementById("pose2");
